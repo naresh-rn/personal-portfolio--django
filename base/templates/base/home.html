@@ -1,0 +1,199 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Onest:wght@400;600&family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+</head>
+<body>
+<section id="B-G">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark bg-body-tertiary" data-bs-theme="dark">
+        <div class="container">
+
+          <a class="navbar-brand nr mb-0" href=""><img src="{% static 'images/logo.png' %}"  style="height: 50px; width: 50px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
+              <li class="nav-item ">
+                <a class="nav-link active inn" aria-current="page" href="http://www.linkedin.com/in/nareshrn" target="_blank">LinkedIn 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                  </svg>
+                  <i class="bi bi-arrow-up-right"></i></a>
+              </li>
+              <li class="nav-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
+                  </svg>              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="work__">Works</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact__" class="btn cbutton active bg-light" role="button" data-bs-toggle="button" aria-pressed="true">Contact</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section class="banner color">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class=" conn m-auto">
+                        <h2 class="name1" >Nice to meet you! </h2> 
+                            <h2 class="name2">
+                                <font color="#ffffff">I'm</font> 
+                                <font color="#000000">Naresh</font>
+                            </h2>
+                          </h2I>  
+                        <p class="name1">A self-motivated, self-driven aspiring developer. </p>
+                        <hr style="color: white;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about__" class="section2">
+        <div class="container">
+            <div class="col-md-12 ">
+                <h2 class="contactH_2 aboutme">About me</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <p class="py-2">
+                        Aspiring technologist passionate about learning, with a knack for Python, databases, and diving into full-stack development
+                    </p>
+                    <p class="py-2">
+                        Proficient in Python and MySQL, I've completed varied projects demonstrating strong connectivity and database management skills. Project in SQL's normalization and star schema, refining database design abilities .Currently advancing in Django and front-end tech, aiming to excel as a full-stack developer.
+                    </p>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <img src="{% static 'images/profile.jpg' %}" class="img-fluid">
+                </div>
+            </div>        
+        </div>
+    </section>
+
+    <section id="skill__" class=" zzzz"> 
+        <div class="container">
+            <div class="container">
+                <h2 class="myskill text-end">My SKills</h2>
+            </div>
+            <div class="row sqwa">
+                <div class="col-md-6 backdev">
+                    <h3 class="py-2 techtool">Software development</h3>
+                    <p class="skill_font">Proficient in Python and MySQL, I'm channeling my expertise into backend development. Currently, I'm exploring tools like Django to fortify backend systems, aiming to create robust and efficient web solutions.</p>
+                    <h6  class="techtool">Tech Shills</h6>
+                    <ul class="skill_font">
+                        <li>Python</li>
+                        <li>MySQL</li>
+                        <li>Django</li>
+                    </ul>
+                    <h6 class="techtool">Tools</h6>
+                        <p class="skill_font">Pycharm, VScode, MySQL Workbench</p>
+                </div>
+                <div class="col-md-6 frontdev">
+                    <h3 class="techtool py-2">Frontend development</h3>
+                    <p class="skill_font">Learning HTML and CSS is where I've started in creating websites. Now, I'm diving into JavaScript to add more interactive features. Excited to make websites look great and do cool things!</p>
+                    <h6 class="techtool">Tech Skills</h6>
+                    <ul class="skill_font">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                    <h6 class="techtool">Tools</h6>
+                        <p class="skill_font">Vs Code, GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work__" class="section_4 color">
+        <div class="container">
+            <div class="row ">
+                <div>
+                    <h2 class="project ">Project</h2>
+                    <hr>
+                </div>       
+                
+                <div class="row olp py-4">
+                    <div class="col-md-5">
+                        <h5 class="title_">Online Store Management System </h5>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="project-desc">Create an efficient and User-friendly Online Store Management System
+                            Using Python with MySQL Database. This Project aims to streamline the
+                            process of managing an Online store, ensuring smooth inventory , order
+                            processing , and customer interactions</p>
+                            <a class="navbar-brand git_logo_" href="https://github.com/naresh-rn/online-store-python-with-mysql-">
+                                <img src="{% static 'images/github-logo-icon.png' %}" class="git_logo_">
+                            </a>
+                              
+                    </div>
+                </div>
+<hr>
+                <div class="row olp py-4">
+                    <div class="col-md-5">
+                        <h5 class="fb title_">Supermarket Database Management System </h5>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="project-desc">Designed and Developed a comprehension Supermarket Database system use the principle of NORMALIZATION.</p>
+                        <a class="navbar-brand git_logo_" href="https://github.com/naresh-rn/Star-Schema-in-MySQL">
+                            <img src="{% static 'images/github-logo-icon.png' %}" class="git_logo_">
+                        </a>                    
+                    </div>
+                </div>
+<hr>
+                <div class="row olp py-4">
+                    <div class="col-md-5">
+                        <h5 class="title_">MP3 Player Python</h5>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="project-desc">Designed for simplicity, allowing users to play their favorite tunes in a Lightweight and easy-to-use interface using TKinter</p>
+                        <a class="navbar-brand git_logo_" href="https://github.com/naresh-rn/mp3-player-using-python.git">
+                            <img src="{% static 'images/github-logo-icon.png' %}" class="git_logo_">
+                        </a>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact__" class="section_5 color">
+        <div class="container">
+                <div class="col-md-12 ">
+                    <h2 class="contactH2 py-2">CONTACT</h2>
+                </div>
+
+                <div class="row ">
+                    <h5 class="contactheader">Email</h5>
+                    <p class="source"><img class="logos" src="{% static 'images/pngwing.com (3).png' %}"> naresh.ravic@gmail.com</p>
+                    <h5 class="contactheader">Social</h5>
+
+                    <p class="source"><a href="http://www.linkedin.com/in/nareshrn"><img src="{% static 'images/linkedin_icon_png.png' %}" class="logos"></a><a class="link-offset-2 link-underline link-underline-opacity-0" href="http://www.linkedin.com/in/nareshrn" target="_blank">Linkedin</a>
+                    <a href="https://github.com/naresh-rn"><img src="{% static 'images/github_icon_png.png' %}" class="logos"></a><a class="link-offset-2 link-underline link-underline-opacity-0" href="https://github.com/naresh-rn" target="_blank">GitHub</a>
+                    <a href="https://www.hackerrank.com/profile/nareshrnh3"><img src="{% static 'images/HackerRank_icon_png.png' %}" class="logos"></a><a class="link-offset-2 link-underline link-underline-opacity-0" href="https://www.hackerrank.com/profile/nareshrnh3" target="_blank">HackerRank</a></p>
+
+
+                </div>
+            </div>        
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="col-md-12">
+                <p> Copyright © 2023 Naresh</p>
+            </div>
+        </div>
+    </footer>
+</section>    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

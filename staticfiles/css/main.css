@@ -1,0 +1,197 @@
+.banner {
+    background-color: gray;
+    padding: 150px;
+    padding-bottom: 30px;
+}
+.cbutton {
+    border-radius: 20px;
+    display: flex;
+}
+body{
+    background-color: aliceblue;
+}
+.inn {
+    font-size: 17px;
+    font-weight: bold;
+}
+.navbar-brand {
+    font-size: 40px;
+}
+.name1 {
+    font-size: 50px;
+    color: white;
+}
+
+.name2 {
+    font-family:  lexend;
+    font-weight: bold;
+    font-size: 100px;
+    color: #ffffff;
+}
+
+body{
+    background-color: #161514;
+    font-family: 'Onest', sans-serif;;
+}
+
+.skill_font {
+    font-size: 16px;
+}
+
+.section2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: gainsboro;
+    font-size: 1rem;
+    color: black;
+    
+}
+
+.aboutme {
+    text-transform: uppercase;
+    font-family: lexend;
+    color: black;
+    font-weight: 500;
+    font-size: 50px;
+}
+img {
+    width: 300px;
+}
+
+.sqwa {
+    background-color:  #DCDCDC;
+}
+.backdev {
+    width: 500px;
+    background-color: transparent;
+    padding: 15px;
+    margin: 20px auto 20px auto;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.techtool {
+    font-weight: bold;
+}
+
+.frontdev {
+    width: 500px;
+    background-color: transparent;
+    padding: 15px;
+    margin: 20px auto 20px auto;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.oooo {
+font-size: 1rem;
+}
+
+.myskill {
+    padding-right: 38px;
+    text-transform: uppercase;
+    font-family: lexend;
+    color: black;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.project {
+    padding-left: 50px;
+    text-transform: uppercase;
+    font-family: lexend;
+    color: black;
+    font-weight: 500;
+    font-size: 50px;
+}
+.title_,.nr {
+    font-family: lexend;
+    font-weight: bold;
+}
+
+.section_5 {
+    background-color: #161514;    
+}
+.contactH2 {
+    text-transform: uppercase;
+    font-family: lexend;
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.row {
+    align-items: center;
+}
+
+.zzzz {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #DCDCDC;
+    color: black;
+}
+
+.section_4 {
+    font-size: 16px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #bfbfbf;
+    padding-bottom: 50px;
+}
+
+.allimg {
+    padding-top: 10px;
+    width: 281px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.projectone  {
+    width: 19rem;
+    font-size: 15px;
+    color: black;
+}
+.projecttwo {
+    width: 19rem;
+    font-size: 15px;
+    color: black;
+}
+.projectthree {
+    width: 19rem;
+    font-size: 15px;
+    color: black;
+}
+.project-desc {
+    padding-bottom: 0px;
+}
+.git_logo_ {
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* contact block */
+.section_5 {
+    background-color: gray;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.contactheader {
+    padding-top: 25px;
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+.source {
+    padding-right: 5px;
+    font-size: 15px;
+    color: white;
+    font-weight:lighter;
+}
+.logos {
+    padding: 10px;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+}
+
+
